@@ -150,7 +150,6 @@ class Box():
         )
 
     def make_copy(self):
-
         return Box(*(self.tuple_format()))
 
     def get_windows(self, chip_size, stride):
